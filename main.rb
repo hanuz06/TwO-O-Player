@@ -15,6 +15,7 @@ while (andy.number_of_lives != 0 && gary.number_of_lives != 0)
   end
 
   puts "Andy has #{andy.number_of_lives} left and Gary has #{gary.number_of_lives} left"
+  puts "A question for #{player.name}"
 
   answer = a.ask_question  
   counter += 1
